@@ -18,3 +18,7 @@ function BoardMember(name, homeState, training){
     console.log(`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`);
   }
 }
+
+let jamie = new BoardMember('Jamie', 'California', 'everything')
+
+jamie.veto()
